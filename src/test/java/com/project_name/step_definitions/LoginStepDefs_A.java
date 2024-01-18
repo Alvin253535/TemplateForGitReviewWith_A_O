@@ -1,15 +1,15 @@
 package com.project_name.step_definitions;
 
 
-import com.project_name.pages.LoginPage_O;
+import com.project_name.pages.LoginPage_A;
 import com.project_name.utilities.ConfigurationReader;
 import com.project_name.utilities.Driver;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
 
-public class LoginStepDefs_O {
+public class LoginStepDefs_A {
 
-    LoginPage_O loginPage = new LoginPage_O();
+    LoginPage_A loginPage = new LoginPage_A();
     @Given("User is on the login page")
     public void user_is_on_the_login_page() {
 

@@ -1,15 +1,15 @@
 package com.project_name.step_definitions;
 
-import com.project_name.pages.LoginPage_O;
-import com.project_name.pages.LogoutPage_A;
+import com.project_name.pages.LoginPage_A;
+import com.project_name.pages.LogoutPage_O;
 import com.project_name.utilities.ConfigurationReader;
 import com.project_name.utilities.Driver;
 import io.cucumber.java.en.*;
 
-public class LogoutStepdefs_A {
+public class LogoutStepdefs_O {
 
-LoginPage_O loginPage_o =new LoginPage_O();
-LogoutPage_A logoutPage_a =new LogoutPage_A();
+LoginPage_A loginPage_o =new LoginPage_A();
+LogoutPage_O logoutPage_a =new LogoutPage_O();
 
     @Given("user is on the login page")
     public void user_is_on_the_login_page() {
