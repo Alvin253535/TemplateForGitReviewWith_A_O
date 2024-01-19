@@ -1,0 +1,104 @@
+B30 Git/GitHub Practice
+
+
+
+PART I  - Create the framework
+Bu sİZİN SORUMLULuğUNUZ DeĞİL; MUHTEMELEN Hazır BULUCAKSINIZ vEYA Team Lead eTC. bunu yapıcAK.
+1. Create a new Cucumber Project
+2. Create a .gitignore file and add the main folders to ignore
+     files: target, *.iml, .idea
+
+
+3. Create the remote repository by publishing project
+- You dont have to worry about these steps because team lead should handle this part.
+
+STEPS.
+1.Proje create edildikten sonra
+
+ (Team Lead- Alvin will create the project and will go to the PROJECT )
+    Proje github la paylaşılacak.
+    1. yol. 1. Enable Version control system
+            2. Share on GitHub
+    2. yol. 1. Create  a project on Github remote and copy the link
+            2. Click Git module
+            3. Click Manage Git
+            4. Add copied URL from GitHub to here
+
+2. Proje deki tüm dosyalar kırmızı(not added to the project), Add ile tüm dosyalar eklenecek ve dosyalar yeşile dönücekler (Working ten Stage e geçmiş oluyor)
+
+3. Commit (Stage den Local e ) ve Push (Local den remote e geçiyor) yapılarak Proje GitHuba gönderilecek.
+4. Go to the project, Right click, open in GitHub.
+
+
+
+PART II  - Create the BRANCH RULE
+
+ Create the Branch rule  (Alvin)
+    1.Githuba gidilecek
+   "Settings" ->
+   "Braches" -> We will creat branch rule
+   "Add rule" -> click on it (Protect the branch rule)
+    We will write branch name -> master -> we are giving masters beceuse we give rule to master
+    Select "Requare a pull request before merging" for our 1 is enough for our practice
+    Click "Create"
+
+Invite all team members by going to project settings--- manage access
+ 2. We will give acces to the newly joined guys
+     Click "Collabrators"
+     Click "add people"
+     Search name "Alvin253535" etc.
+
+
+ (Owen)
+ wilL cLONE THE PrOject and Start the work
+
+PART III - DAILY ACTIVITIES
+ DaY 1 (Alvin)
+ - Create a new branch called "SE-00!-login" or etc. on the local repository
+      1.
+     Click on "Git".
+      Creat your branch from local master like "Login_AC".
+      Copy feature step and paste  (Günlük çalışmamızı yapıyıoruz. Dosyalar kodlar yapıştırılıyor)
+
+  2. Commit ve PUSH yapıyoruz
+  3. Create Pull Request
+
+day 2 (Owen)
+
+1. Will go to the GitHub and check for the PR and will review and approve it.
+2. (Alvin) the coder will merge his code himself because of the responsibility
+3. (Owen) WİlL START TO WORK ON THE project
+4. Copy and paste PAGES- Logout   and  Step Definitions- Logout   and FEATURES - Logout.
+5. Will commit and PUSH and PR from computer.
+
+ Day 3 (Alvin)
+1. will receive an email for PR
+2. Will open the InTELLİJ  AND GO TO OWEN's branch
+3. CHECK OUT owen'S BrANCH
+4. Will FETCH aND THEN PULl to OweN'S BrANCH
+5. ALVİN WİlL RUN THE CODE in HiS cOMPUTER AND SEE IF IT IS WORKING
+6. FINALLY  _ 2 durum SÖZkONUSU
+     _ Test pass ederse, AlviN GİDECEK VE Pull requesTİ ONAYLAYACAK
+     _ Test geçmezse, Alvin Request cHANGE YAPACAK: Bu durumda owen cODE TEKRAR DÜZELTİP TEKRAR Pull request oluşturacak.
+
+
+
+
+     PART 4 - CofliCT - DAY $
+
+     1. In reAl LİFE CONFLICT OLMASI DÜŞÜK BİR İHTİMAL: çÜNkÜ CONFLİct AYNI CLASS İÇERİSİNdE AYNI METHod TA YaPILAN DeĞİŞİKLiKLER SONUCUNDA OLUŞABiLİR
+     2. BöYlE Bİr DuruMDA CODE REViEW EDİLEREK SORUN çÖZÜLüR.
+     3. COfLİCT pACKAGE OLUŞTURULUR
+     4: cOnFLİCK CLASS OLUŞTURULUR
+     5. MaİN MEtHOD AÇILIR
+     6: PRİnT STATEMENT İÇİNdE Alvin (HeLLO)  OweN (byE) YAZAR
+     7. ALViN CREATE PR
+     8. OweN CREATE Pr
+     9. OwEn REVİEWS ALVİN Pr  - no problem
+     10. ALVİn reviES OweN Pr ANd SEES the conflict AND SOLVE THE PROBLEM
+
+
+
+
+
+
